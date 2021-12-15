@@ -20,10 +20,16 @@ namespace cis237_assignment_6.Controllers
 
         public IActionResult Index()
         {
+            ViewData["MyJumbotron"] = "Welcome to the Beverage Website";
             return View();
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+        //Contact page 
+        public IActionResult Contact()
         {
             return View();
         }
