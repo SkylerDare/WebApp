@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Skyler Dare
+//CIS237
+//12/16/21
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

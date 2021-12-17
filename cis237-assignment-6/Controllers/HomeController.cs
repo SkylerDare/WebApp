@@ -1,4 +1,7 @@
-﻿using cis237_assignment_6.Models;
+﻿//Skyler Dare
+//CIS237
+//12/16/21
+using cis237_assignment_6.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -20,7 +23,7 @@ namespace cis237_assignment_6.Controllers
 
         public IActionResult Index()
         {
-            ViewData["MyJumbotron"] = "Welcome to the Beverage Website";
+            ViewData["Jumbotron"] = "Welcome to the Beverage Website";
             return View();
         }
 

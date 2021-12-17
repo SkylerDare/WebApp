@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Skyler Dare
+//CIS237
+//12/16/21
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -22,6 +25,8 @@ namespace cis237_assignment_6.Controllers
         }
 
         // GET: Beverages
+        // Takes in the beverages from the database, accepts form data from the user from the filter text boxes
+        // it then applies the filters to the beverages database and returns all items that pass the tests
         public async Task<IActionResult> Index()
         {
             DbSet<Beverage> BeveragesToFilter = _context.Beverages;
